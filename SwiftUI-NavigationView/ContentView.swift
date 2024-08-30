@@ -8,14 +8,31 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @ObservedObject var userBuy = UserBuy()
+    
+    let coffee = "Coffee"
+    let tea = "Tea"
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationView {
+            VStack(spacing: 30) {
+                Text("What you wanna?")
+                
+                NavigationLink(destination: { DetailView(text: tea) },
+                               label: { Text(tea) })
+                
+                NavigationLink(destination: { DetailView(text: coffee) }, 
+                               label: { Text(coffee) })
+                
+                Text("You choose = \(userBuy.cap) drink(s)")
+                
+                .navigationTitle("Menu")
+                .navigationBarTitleDisplayMode(.large)
+            }
         }
-        .padding()
+        .environmentObject(userBuy)
+        
     }
 }
 

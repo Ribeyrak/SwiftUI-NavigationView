@@ -11,6 +11,8 @@
 		C8B7C4C62C825E1C0040BB05 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B7C4C52C825E1C0040BB05 /* ContentView.swift */; };
 		C8B7C4C82C825E1E0040BB05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8B7C4C72C825E1E0040BB05 /* Assets.xcassets */; };
 		C8B7C4CB2C825E1E0040BB05 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8B7C4CA2C825E1E0040BB05 /* Preview Assets.xcassets */; };
+		C8B7C4D22C826A120040BB05 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B7C4D12C826A120040BB05 /* DetailView.swift */; };
+		C8B7C4D42C8278BF0040BB05 /* UserBuy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B7C4D32C8278BF0040BB05 /* UserBuy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		C8B7C4C52C825E1C0040BB05 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C8B7C4C72C825E1E0040BB05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C8B7C4CA2C825E1E0040BB05 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C8B7C4D12C826A120040BB05 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		C8B7C4D32C8278BF0040BB05 /* UserBuy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserBuy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +56,9 @@
 			isa = PBXGroup;
 			children = (
 				C8B7C4C32C825E1C0040BB05 /* SwiftUI_NavigationViewApp.swift */,
+				C8B7C4D32C8278BF0040BB05 /* UserBuy.swift */,
 				C8B7C4C52C825E1C0040BB05 /* ContentView.swift */,
+				C8B7C4D12C826A120040BB05 /* DetailView.swift */,
 				C8B7C4C72C825E1E0040BB05 /* Assets.xcassets */,
 				C8B7C4C92C825E1E0040BB05 /* Preview Content */,
 			);
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8B7C4C62C825E1C0040BB05 /* ContentView.swift in Sources */,
+				C8B7C4D22C826A120040BB05 /* DetailView.swift in Sources */,
 				C8B7C4C42C825E1C0040BB05 /* SwiftUI_NavigationViewApp.swift in Sources */,
+				C8B7C4D42C8278BF0040BB05 /* UserBuy.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
